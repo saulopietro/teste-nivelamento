@@ -22,7 +22,6 @@ public class PdfExtractorService implements DataExtractor {
         List<String[]> data = new ArrayList<>();
         String[] lines = pdfText.split("\n");
 
-        // Buscar a tabela dentro do texto extraído
         for (String line : lines) {
             if (line.contains("Rol de Procedimentos e Eventos em Saúde")) {
                 String[] columns = line.split("\\s+");
