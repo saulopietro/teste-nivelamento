@@ -15,7 +15,7 @@ public class PdfScraperService {
 
     public List<String> scrapePdfLinks(String url) throws IOException {
         Document doc = Jsoup.connect(url).timeout(10000).get();
-        Elements pdfLinks = doc.select("a[href$='.pdf']");
+        Elements pdfLinks = doc.select("a[href*='Anexo'][href$='.pdf']");
         List<String> links = new ArrayList<>();
         for (Element link : pdfLinks) {
             links.add(link.absUrl("href"));

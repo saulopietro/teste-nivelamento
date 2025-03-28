@@ -23,7 +23,7 @@ class PdfDownloadServiceTest {
     }
 
     @Test
-    void TheFilesShouldBeDonwloaded() throws IOException {
+    void TheFilesShouldBeDownloaded() throws IOException {
 
         //Arrange
         String downloadDir = "C:\\Users\\saulo\\Desktop\\teste1";

@@ -32,6 +32,7 @@ public class PdfCompressionService {
                     }
                 }
             }
+            zipOut.finish();
             System.out.println("Compressed files: " + zipFilePath);
         } catch (IOException e) {
             e.printStackTrace();
