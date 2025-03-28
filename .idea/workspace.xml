@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4199604b-ac34-4aa6-ae8a-8688a228a3cb" name="Changes" comment="" />
+    <list default="true" id="4199604b-ac34-4aa6-ae8a-8688a228a3cb" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/DataTransformationApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/DataTransformationApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/controller/DataTranformationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/controller/DataTransformationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/interfaces/DataExtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/interfaces/DataExtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/interfaces/DataWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/interfaces/DataWriter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/interfaces/FileCompressor.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/interfaces/FileCompressor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/services/CsvCompressorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/services/CsvCompressorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/services/CsvWriterService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/services/CsvWriterService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/services/PdfDataTranformerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/services/PdfDataTransformerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/main/java/com/web_scraping/data_transformation/services/PdfExtractorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/main/java/com/data_transformation/services/PdfExtractorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data-transformation/src/test/java/com/web_scraping/data_transformation/DataTransformationApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/data-transformation/src/test/java/com/data_transformation/DataTransformationApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -36,7 +49,7 @@
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/saulo/Desktop/teste_nivelamento"
+    "last_opened_file_path": "C:/projetos/teste_nivelamento"
   }
 }]]></component>
   <component name="RunManager">
