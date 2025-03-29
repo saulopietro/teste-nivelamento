@@ -17,6 +17,6 @@ CREATE TABLE operadoras_plano_saude (
     endereco_eletronico VARCHAR(255),      
     representante VARCHAR(255),            
     cargo_representante VARCHAR(255),      
-    regiao_de_comercializacao VARCHAR(255),
+    regiao_de_comercializacao CHAR(1),
     data_registro_ans DATE                 
 );
