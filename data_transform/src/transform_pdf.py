@@ -1,7 +1,8 @@
 import pdfplumber
 import pandas as pd 
+import io
 
-def pdf_to_csv(pdf_path, csv_path):
+def pdf_to_csv(pdf_path):
     """
         Converts tables from a PDF file to a CSV file.
 
@@ -24,5 +25,11 @@ def pdf_to_csv(pdf_path, csv_path):
                 tables.extend(table)
     
     df = pd.DataFrame(tables[1:], columns=tables[0])  
-    df.to_csv(csv_path, index=False, encoding="utf-8")
-    print('Pdf transform in csv...')
+    csv_buffer = io.BytesIO()
+    
+    df.to_csv(csv_buffer, index=False, encoding="utf-8")
+    
+
+    csv_buffer.seek(0)
+    
+    return csv_buffer

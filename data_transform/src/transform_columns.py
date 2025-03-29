@@ -19,7 +19,7 @@ def read_csv(file_csv) :
     print('File csv read...')
     return dataset
 
-def columns_alter(dataset) : 
+def columns_alter(dataset) -> pd.DataFrame: 
     """
     Renames specific columns in a pandas DataFrame.
 
@@ -34,12 +34,8 @@ def columns_alter(dataset) :
     Example usage:
     df = columns_alter(df)
     """
-    if 'OD' in dataset.columns and 'AMB' in dataset.columns:
-        dataset.rename(
+    dataset.rename(
             columns = {'OD': 'Seg. Odontológica',
                     'AMB': 'Seg. Ambulatorial'},
             inplace=True
-        )
-        print('Columns transformed...')
-    else:
-        print('Colunas não existem')
+    )
