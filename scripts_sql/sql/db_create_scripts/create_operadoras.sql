@@ -1,0 +1,22 @@
+CREATE TABLE operadoras_plano_saude (
+    registro_ans SERIAL PRIMARY KEY,       
+    cnpj VARCHAR(14) NOT NULL,             
+    razao_social VARCHAR(255) NOT NULL,    
+    nome_fantasia VARCHAR(255),            
+    modalidade VARCHAR(255),               
+    logradouro VARCHAR(255),               
+    numero VARCHAR(10),                    
+    complemento VARCHAR(255),              
+    bairro VARCHAR(255),                   
+    cidade VARCHAR(255),                   
+    uf CHAR(2),                            
+    cep VARCHAR(8),                        
+    ddd CHAR(3),                           
+    telefone VARCHAR(15),                  
+    fax VARCHAR(15),                       
+    endereco_eletronico VARCHAR(255),      
+    representante VARCHAR(255),            
+    cargo_representante VARCHAR(255),      
+    regiao_de_comercializacao VARCHAR(255),
+    data_registro_ans DATE                 
+);
