@@ -23,8 +23,8 @@ public class WebScrapingController {
 
     public void processPdfFiles(String url) throws IOException {
         List<String> urlLinks = pdfScraperService.scrapePdfLinks(url);
-        List<String> filePaths = pdfDownloadService.downloadFiles(urlLinks, "C:\\Users\\saulo\\Desktop\\teste1");
-        pdfCompressionService.compressFile(filePaths, "C:\\Users\\saulo\\Desktop\\teste1.zip");
+        List<String> filePaths = pdfDownloadService.downloadFiles(urlLinks, "C:\\projetos\\teste_nivelamento\\web-scraping\\src\\main\\resources\\output");
+        pdfCompressionService.compressFile(filePaths, "C:\\projetos\\teste_nivelamento\\web-scraping\\src\\main\\resources\\output\\Anexos.pdf");
     }
 
 
