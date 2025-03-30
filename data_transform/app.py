@@ -22,7 +22,7 @@ def pipeline() :
     save_data(dataset,OUTPUT)
 
     # transform in zip 
-    pdf_to_zip(dataset,'dataset',OUTPUT_ZIP)
+    pdf_to_zip(dataset,'Teste_saulo',OUTPUT_ZIP)
 
 # Run app 
 if __name__ == '__main__' : 

@@ -18,5 +18,5 @@ def pdf_to_zip(dataset,file_name,output_zip) :
 
     # Optionally, remove the CSV file after compression
     os.remove(csv_path)
-    print('Csv transform in zip')
+    print('Csv transformed in zip')
     return zip_path
