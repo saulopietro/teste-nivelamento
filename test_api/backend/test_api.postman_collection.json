@@ -1,0 +1,18 @@
+{
+	"info": {
+		"_postman_id": "2d987056-fa06-4016-bd5d-8664ff558f8e",
+		"name": "test_api",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40907364"
+	},
+	"item": [
+		{
+			"name": "Search by params",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
