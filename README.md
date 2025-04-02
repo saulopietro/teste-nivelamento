@@ -1,10 +1,10 @@
 Web-Scraping 1(Feito no Intelij):\
 -Substituir os caminhos dos arquivos finais no arquivo WebScrapingController\
--Rodar o arquivo WebScrapingApplication\
+-Rodar o arquivo WebScrapingApplication
 
 Data transformation test 2:\
 -Substituir os caminhos dos arquivos iniciais e finais no 'configs.py'\
--rodar o 'app.py'\
+-rodar o 'app.py'
 
 Database test 3(PostgreSQL):\
  1°: Executar os scripts de criação de tabela em ordem:\
@@ -17,7 +17,7 @@ Database test 3(PostgreSQL):\
 	Caso queira o ultimo ano:\
 		-import_last_1_year_demonstracoes ->  nesse arquivo você primeiro deve executar os comandos de importação, depois o de transformação\
  3°: Executar a query\
-	-query.sql\
+	-query.sql
 
 api test 4:\
  1°: Habilitar o backend\
