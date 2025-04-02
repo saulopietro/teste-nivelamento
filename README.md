@@ -25,4 +25,4 @@ api test 4:\
 	-rodar o app -> python app.py\
  2°: Habilitar o frontend\
 	-Rodar o serve -> npm run serve\
-	-Entrat na URL -> http://localhost:8080/\			
+	-Entrat na URL -> http://localhost:8080/		
